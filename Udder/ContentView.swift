@@ -14,12 +14,12 @@ struct ContentView: View {
                 .font(.system(size: 40))
             Text("Fresh Milk, On Demand.")
                 .padding(.top, 1)
+            Spacer()
             Image("cow")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 200, height: 200)
             Image("milk")
-            Spacer()
         }
         .padding()
     }
